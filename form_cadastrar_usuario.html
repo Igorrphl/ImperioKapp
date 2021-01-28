@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>Imperador</title>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Impéro Kapp - Acessórios eletrônicos </title>
+	<meta name="description" content="Central de Vendas de acessórios eletrônicos">
+	<meta name="keywords" content="capinhas, pop socket, power bank">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Império">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="img/DOURADO.png">
+</head>
+
+<body>
+	<!-- CABEÇALHO -->
+	<header class="cabecalho container">
+		<a href="index.html">
+			<h1 class="logo"> Império Kapp </h1>
+		</a>
+		<button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+		<nav class="menu">
+			<a class="btn-close"><i class="fa fa-times"></i></a>
+			<ul>
+				    <li><a href="index.html">Home</a></li>
+                   <li><a href="servicos.php">Nossos Serviços</a></li>
+                   <li><a href="sobre.html">Quem somos</a></li>
+                   <li><a href="contato.html">Contato</a></li>
+                   <li><a href="sup.html">Suporte</a></li>
+                   <li><a href="login.php">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- BANNER -->
+	<div class="banner container">
+		<div class="title">
+			<h2> A MELHOR EM ACESSÓRIOS ELETRÔNICOS </h2>
+			<h3>compre 4 acessórios e pague por 2</h3>
+		</div>
+		<div class="buttons">
+			<button class="btn btn-cadastrar bg-white radius"></a><a href="form_cadastrar_usuario.html"> Cadastre-se <i
+					class="fa fa-arrow-circle-right"></i></button>
+			<button class="btn btn-sobre bg-black radius"></a> Sobre <i class="fa fa-question-circle"></i></button>
+		</div>
+	</div>
+	<form name="form_cadastrar_usuario" method="POST" action="cadastrar_usuario.php">
+			<div class="imperador">
+		<font color="white"> <h3>Cadastro do Imperador</h3>
+			</div>
+			<div class="informacoes">
+		<form name="form_cadastrar_usuario" method="POST" action="cadastrar_usuario.php">
+			<p>Nickname: <input type="text" name="c_nickname" size="50" required autofocus></p>
+			<p>Nome: <input type="text" name="c_nome" size="50" required autofocus></p>	
+			<p>Sobrenome: <input type="text" name="c_sobrenome" size="50" required autofocus></p> 
+			<p>Senha: <input type="password" name="c_senha" size="50" required autofocus></p>
+			<p>Endereço: <input type="text" name="c_endereco" size="50" required autofocus></p>
+            <p>Data_de_nascimento: <input type="date" name="c_data" required autofocus></p>
+            <p>Telefone: <input type="number" name="c_telefone" size="10" required autofocus></p>
+			<p>Celular: <input type="text" name="c_celular" size="12" required autofocus></p>
+            <p>Cpf: <input type="number" name="c_cpf" size="11" required autofocus></p>
+            </form>
+        </div>       
+			<input a href="login.php" type="submit" name="botao" value="Enviar" class="bt1" >
+			<input type="reset" name="botao" value="Limpar" class="bt2">		
+		</font>
+	  </form>
+</div>
+ <!-- RODAPÉ -->
+        <footer class="rodape container bg-gradient">
+          <div class="social-icons">
+           <a href="https://www.facebook.com/imperiador.kapp.3"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/KappImperio"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.google.com.br/"><i class="fa fa-google"></i></a>
+            <a href="https://www.instagram.com/impekapp/?hl=pt-br"><i class="fa fa-instagram"></i></a>
+            <a href="https://linktr.ee/Imperiokapp"><i class="fa fa-envelope"></i></a>
+          </div>
+          <p class="copyright">
+            Império Kapp 2020. Todos os direitos reservados.
+        </footer>       
+
+</body>	
+</html>
